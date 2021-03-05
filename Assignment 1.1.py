@@ -1,0 +1,6 @@
+print("Twinkle","Twinkle", "Little", "star" , sep="," , end="\n")
+print("\t How I Wonder What you are! ", sep = " ", end="\n" )
+print(" \t \t Up above the world so high, ", sep = " ", end="\n")
+print(" \t \t Like a Diamond in the sky.", sep= " ", end="\n")
+print("Twinkle","Twinkle", "Little", "star" , sep="," , end="\n")
+print("\t How I Wonder What you are ", sep = " ", end="!" )
