@@ -28,9 +28,11 @@ def division():
     val3= val1//val2
     print("Division of 1st and 2nd Number is :",val3)
 
-#def inverse():
- #   print("You Selected Inverse")
-  #  Val
+def inverse():
+    print("You Selected Inverse")
+    Val= int(input("Enter the number:"))
+    val1=1/val
+    print("Inverse of:",Val,"is",val1)
     
     
 def square():
@@ -51,9 +53,10 @@ print("Menu-\n"
       "3.Multiplication-\n"
       "4.Division-\n"
       "5.Square-\n"
-      "6.Cube-\n")
+      "6.Inverse
+      "7.Cube-\n")
 
-x=int(input("press number from 1 to 6 to perform the following function according to given menu: "))
+x=int(input("press number from 1 to 7 to perform the following function according to given menu: "))
     
 if x==1:
       add()
@@ -71,6 +74,9 @@ elif x==5:
       square()
 
 elif x==6:
+    inverse()
+
+elif x==7:
     cube()
       
       
